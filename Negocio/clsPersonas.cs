@@ -2,6 +2,7 @@
 
 namespace Negocio
 {
+    //Creación del constructor
     public class clsPersonas
     {
         private String strNombre;
