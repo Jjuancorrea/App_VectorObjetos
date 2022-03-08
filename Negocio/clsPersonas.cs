@@ -49,5 +49,6 @@ namespace Negocio
         {
             return this.strNombre;
         }
+        //Terminación de métodos setters y getters
     }
 }
