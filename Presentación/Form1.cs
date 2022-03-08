@@ -1,17 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Negocio;
 namespace Presentación
 {
     public partial class Form1 : Form
     {
+        clsPersonas[] personas = new clsPersonas[1000];
         public Form1()
         {
             InitializeComponent();
